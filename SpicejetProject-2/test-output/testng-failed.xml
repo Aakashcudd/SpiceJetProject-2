@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.Tc_04_Loginpage_email">
+        <methods>
+          <include name="Login_using_email"/>
+          <include name="setup"/>
+          <include name="startup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.Tc_04_Loginpage_email -->
+      <class name="testcases.Tc_02_Signuppage">
+        <methods>
+          <include name="setup"/>
+          <include name="startup"/>
+          <include name="Signup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.Tc_02_Signuppage -->
+      <class name="testcases.Tc_08_Paymentpage">
+        <methods>
+          <include name="startup"/>
+          <include name="Paymentpage"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.Tc_08_Paymentpage -->
+      <class name="testcases.Tc_03_Loginpage_Mobno">
+        <methods>
+          <include name="setup"/>
+          <include name="Login_using_mobile"/>
+          <include name="startup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.Tc_03_Loginpage_Mobno -->
+      <class name="testcases.Tc_07_Bookingformpage">
+        <methods>
+          <include name="startup"/>
+          <include name="close"/>
+          <include name="Bookingpage"/>
+        </methods>
+      </class> <!-- testcases.Tc_07_Bookingformpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
